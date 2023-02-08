@@ -1,8 +1,3 @@
-<?php
-   
-    
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -26,7 +21,7 @@
             <h3 class="text-white">Genera una password sicura</h3>
         </div>
         <div class="bg-white p-4 mt-5">
-            <form>
+            <form action="./password.php" method="GET">
                 <div class="row">
                     <label class="col-sm-4 col-form-label">Lunghezza Password:</label>
                     <div class="col-sm-auto">
